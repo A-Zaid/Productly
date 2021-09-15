@@ -1,0 +1,224 @@
+*{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+}
+.generic-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.page-wrapper{
+    row-gap: 100px;
+    align-content: center
+}
+.footer-link-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-self: flex-end;
+}
+.row{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.flex-row{
+    flex-direction: column;
+    align-content: flex-start;
+}
+.row-gap{
+    row-gap: 60px;
+}
+.centred-element{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.centred-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.justified-element{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.navigation-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 78px;
+    /*align-content: center;*/
+}
+.footer-container{
+    margin-bottom: 83px;
+    display: flex;
+    flex-direction: row;
+    height: 205px;
+}
+.column{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+}
+.footer-link-column{
+    display: flex;
+    justify-content: flex-start;
+    flex:2; 
+    align-content: flex-start;
+
+}
+.nav-column{
+    justify-content: flex-end;
+    width: 100%;
+    flex:4;
+}
+.signin-column{
+   column-gap: 14px;
+   align-items: center;
+   justify-content: center; 
+}
+.nav{
+    flex: 0;
+    align-items: center;
+    justify-content: center;
+    min-width: 40%;
+    column-gap: 50px;
+}
+.nav > a {
+    text-decoration-line: none;
+    font-size: 14px;
+    line-height: 28px;
+    color: #2F281E;
+}
+.logo{
+    align-items: center;
+}
+.logo-footer{
+    align-items: flex-start;
+}
+.btn{
+    background-color: #FF9900;
+    height: 46px;
+    width: 110px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 4px;
+}
+.signin-btn{
+    color: #173A56; 
+    background-color: #FFFFFF;
+}
+.title{
+    font-size: 44px;
+    line-height: 54px;
+    color: #2F281E;
+    font-weight: bold;
+}
+.intro{
+    font-size: 18px;
+    line-height: 28px;
+    color: #544837;
+    padding-bottom: 80px;
+    padding-right: 50px;
+}
+.txt-detail{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+.txt-small-detail{
+    font-weight: 500;
+    font-size: 16px;
+    /*line-height: 24px;*/
+    color: #544837;
+}
+.bold-title{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F281E;
+}
+.h3-title{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
+}
+.triangle{ 
+   /* transform: rotate(90deg);*/
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-left: 20px solid #FF9900;
+    margin-left: 30px;
+}
+.colored-link{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #FF9900;
+}
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer-signup{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 21px; 
+    align-self: flex-end; 
+}
+.large-btn{
+    width: 175px;
+    height: 53px;
+}
+.image1{
+    justify-content: flex-end;
+}
+.check-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start; 
+    column-gap: 30px;
+}
+.check-size{
+    align-self: center;
+    width: 30px;
+    height: 30px;
+}
+.footer-link{
+    text-decoration-line: none;
+    font-size: 16px;
+    line-height: 35px;
+    color: #544837;
+}
+.input{
+    background: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 325px;
+    height: 48px;
+}
+.separation-line{
+    height: 1px;
+    background: rgba(188, 208, 229, 0.496913);
+    align-self: center;
+}
